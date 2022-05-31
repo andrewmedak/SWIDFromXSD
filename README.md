@@ -2,7 +2,7 @@ This library offers C# Objects that are generated from XSD schema published alon
 
 This project is intended to save others the step of converting the SWID XSDs. The library is available via Nuget https://www.nuget.org/packages/SWIDFromXSD.
 
-The [README.md on the project page](https://www.github.com/andrewmedak/SWIDFromXSD/SWIDFromXSD/README.md) outlines the steps taken to convert the XSD into C#. 
+The [README.md on the project page](https://github.com/andrewmedak/SWIDFromXSD/blob/main/SWIDFromXSD/README.md) outlines the steps taken to convert the XSD into C#. 
 
 #### Usage
 Loading a SWID XML file is fairly simple
