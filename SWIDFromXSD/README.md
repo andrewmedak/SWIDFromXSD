@@ -5,7 +5,6 @@ Procedures to generate the source files:
 * Download these files to that xsd directory
      * http://standards.iso.org/iso/19770/-2/2015-current/schema.xsd
      * https://csrc.nist.gov/schema/swid/2015-extensions/swid-2015-extensions-1.0.xsd
-     * For newer versions, check 
 
 #### Install LinqToXsdCore
 This project uses [LinqToXSDCore](https://github.com/mamift/LinqToXsdCore) to generate the C# code files.
