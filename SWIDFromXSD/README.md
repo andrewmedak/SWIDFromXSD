@@ -6,13 +6,13 @@ Procedures to generate the source files:
      * http://standards.iso.org/iso/19770/-2/2015-current/schema.xsd
      * https://csrc.nist.gov/schema/swid/2015-extensions/swid-2015-extensions-1.0.xsd
 
-#### Install LinqToXsdCore
-This project uses [LinqToXSDCore](https://github.com/mamift/LinqToXsdCore) to generate the C# code files.
+#### Install the LinqToXsdCore dotnet tool
+This project uses [LinqToXSDCore](https://github.com/mamift/LinqToXsdCore) to generate the C# code files.  
 ```dotnet tool install LinqToXsdCore -g```
 
 #### Create LinqToXsdCore namespace config files
-These commands are run from the root directory of the project with the XSD files downloaded to .\xsd.
-```linqtoxsd config -e .\xsd\iso-19770-2-schema-1.0.xsd .\xsd\swid-2015-extensions-1.0.xsd```
+These commands are run from the root directory of the project with the XSD files downloaded to .\xsd.  
+```linqtoxsd config -e .\xsd\iso-19770-2-schema-1.0.xsd .\xsd\swid-2015-extensions-1.0.xsd```  
 This will output *LinqToXsdConfig.config*
 
 #### Change generated namespaces in LinqToXsdConfig.config
@@ -43,7 +43,7 @@ There is a bug in either the schema or during conversion that results in iso-197
 #### Install XObjectsCore from Nuget
 
 #### Useful library methods
-```SoftwareIdentity swid = SoftwareIdentity.Load("/path/to/swidtag");```
+```SoftwareIdentity swid = SoftwareIdentity.Load("/path/to/swidtag");```  
 ```byte[] bytes = Convert.FromHexString(string);```
 
 ### Useful links
